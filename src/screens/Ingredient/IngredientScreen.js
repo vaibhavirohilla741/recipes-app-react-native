@@ -21,7 +21,7 @@ export default function IngredientScreen(props) {
   };
 
   const renderRecipes = ({ item }) => (
-    <TouchableHighlight underlayColor="rgba(73,182,77,0.9)" onPress={() => onPressRecipe(item)}>
+   // <TouchableHighlight underlayColor="rgba(73,182,77,0.9)" onPress={() => onPressRecipe(item)}>
       <TouchableHighlight underlayColor="rgba(73,182,77,0.9)" onPress={() => onPressRecipe(item)}>
         <View style={styles.container}>
           <Image style={styles.photo} source={{ uri: item.photo_url }} />
@@ -29,7 +29,7 @@ export default function IngredientScreen(props) {
           <Text style={styles.category}>{getCategoryName(item.categoryId)}</Text>
         </View>
       </TouchableHighlight>
-    </TouchableHighlight>
+    //</TouchableHighlight>
   );
 
   return (

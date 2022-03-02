@@ -32,7 +32,7 @@ export default function HomeScreen(props) {
         <Text style={styles.title}>{item.title}</Text>
         <Text style={styles.category}>{getCategoryName(item.categoryId)}</Text>
       </View>
-    </TouchableHighlight>
+   </TouchableHighlight>
   );
 
   return (

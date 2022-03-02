@@ -219,7 +219,7 @@ export const recipes = [
   {
     recipeId: 6,
     categoryId: 2,
-    title: 'Buffalo Pizza',
+    title: ' Pizza',
     photo_url:
       'https://images.unsplash.com/photo-1513104890138-7c749659a591?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80',
     photosArray: [
